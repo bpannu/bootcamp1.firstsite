@@ -1,0 +1,234 @@
+body{
+    margin: 0px;
+    font-family: 'Fresca', sans-serif;
+
+}
+
+/* Start of nav styles*/
+.main-nav{
+    background: #ccc;
+    padding: 15px;
+    height: 80px;
+}
+
+.logo{
+    height: 100px;
+    width: 50px;
+}
+
+.nav-list{
+    float: right;
+    list-style:none;
+    margin:;
+}
+.nav-item{
+    float:left;
+    margin-left: 10px;
+}
+
+.nav-link{
+    text-decoration:none;
+    color:#fff;
+    font-family: 'Lemonada', cursive;
+
+}
+.nav-link:hover{
+    color:green;
+}
+/** End of nav styles **/
+
+/**Start of hero section**/
+
+    .hero-section{
+     background-image:url('../images/icecream-background.jpg');
+     height: 250px;
+     background-repeat: no-repeat;
+     background-size:cover;
+    }
+    
+    .brand-name{
+        margin:0;
+        color:#fff;
+        text-align:center;
+        padding-top:175px;
+        font-size:36px;
+    }
+    
+    .brand-background{
+        background-color:rgba(0, 0, 0, .5);
+        padding:20px;
+    }
+    
+    /**End of hero section**/
+    
+  /** Start of column section styles**/
+   
+    .info-columns{
+        padding: 15px;
+     }
+     
+     .info-columns::after {
+    content:"";
+    display: black;
+    clear: both;
+         
+     }
+    
+    
+    .column{
+        width: 30%;
+        float: left;
+        text-align: center;
+        padding: 1%;
+        margin-left: 1%;
+    }
+    
+   .column-image{
+       height: 250px;
+       width:100%;
+   }
+   
+   .column-button{
+       padding:6px 12px;
+       border-radius: 8px;
+       border: none;
+       background: #32cd32;
+   }
+   /**End of column styles**/
+   
+   /**description section styles**/
+   
+   
+   .sprinkles-container::after{
+       content:"";
+       display: black;
+       clear: both;
+       
+   }
+   
+   .description-column{
+       width: 50%;
+       float: left;
+       text-align: center;
+       
+   }
+   
+   .description-image{
+       width: 100%;
+       height: 300px;
+   }
+   
+   .description-background{
+       background: #32cd32;
+       height: 300px;
+       
+   }
+   
+   /**End of description section**/
+   
+   /** Start footer styles**/
+   .footer-container{
+       height: 70px;
+       padding: 15px;
+       border: 1px solid #000;
+       clear:both;
+        }
+        
+        .social-media-container{
+           width: 15%;
+        }
+        
+        .social-media-container .fa{
+            font-size: 18px;
+            color: blue;
+            margin-left: 15%;
+        }
+        
+        .contact-container{
+            width: 70%;
+            text-align: center;
+        }
+        
+        .left{
+            float: left;
+        }
+        
+        .right{
+            float: right;
+        }
+        
+        .copyright{
+            display: inline-block;
+            margin: 0px 15px;
+        }
+        
+        .contact-info{
+            display: inline-block;
+            text-align: center;
+        }
+        
+        
+         /**End footer styles**/
+         
+         /**Contact Page Styles**/
+         
+         .form-container{
+             width: 50%;
+             padding: 25px 25px 0px 25 px;
+             margin: 0 auto;
+             background: rgba(210, 210, 155 .65);
+         }
+         
+         .contact-page{
+             height: initial;
+             padding-bottom: 25px;
+             
+         }
+         
+         .contact-header{
+             color: #fff;
+             text-align: center;
+             margin-top: 0px;
+             padding-top: 10px;
+             
+         }
+         
+     /**End Of Contact Page Styles**/
+     
+     /**Start of About Column**/
+     .about-columns{
+         padding:15px;
+         
+     }
+     
+     .about-columns::after{
+         content:"";
+         display: black;
+         clear: both;
+     }
+     
+     .about{
+         width: 50%;
+        float: left;
+        text-align: justify;
+        
+     }
+     .about p{
+         padding: 15px;
+     }
+     
+     .about h2{
+         text-align: center;
+     }
+     
+     .about h3{
+         text-align: center;
+     }
+     
+     .about-image{
+         height: 400px;
+         width: 400px;
+     }
+     
+     
+     
