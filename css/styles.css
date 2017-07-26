@@ -230,5 +230,10 @@ body{
          width: 400px;
      }
      
+     .video-container{
+         height: 350px;
+         width: 50%;
+         margin: 0 auto;
+     }
      
-     
+     /**End of About column**/
